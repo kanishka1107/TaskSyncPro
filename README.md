@@ -2,9 +2,6 @@
 
 Welcome to the Beautiful Task Scheduler App repository! This Flutter-based task management application combines elegant design with a robust backend, ensuring a seamless and organized task management experience. From stunning UI to real-time synchronization, this app has you covered.
 
-## Screenshots
-
-<img src="demo.png">
 
 ## Features
 
@@ -22,25 +19,6 @@ Welcome to the Beautiful Task Scheduler App repository! This Flutter-based task 
 
 - **Authentication and Session Management**: Utilizing Firebase Authentication and the `firebase_auth` package, the app provides a robust user authentication system. The session management is handled seamlessly, allowing users to securely access their tasks.
 
-## Installation
-
-1. Clone this repository using `git clone https://github.com/Hamad-Anwar/Task-Sync-Pro-Flutter.git
-2. Navigate to the project directory: `cd task-scheduler-app`
-3. Install dependencies: `flutter pub get`
-4. **Add `google-services.json`:** For Firebase setup, each developer needs to add their own `google-services.json` file obtained from their Firebase project. Place this file in the `android/app` directory.
-
-5. **Set Up Firebase Authentication:**
-   - Go to the Firebase Console and create a project.
-   - Enable the Email/Password sign-in method.
-   - Add your Android app to the project and download the `google-services.json` file.
-   - Add your iOS app if needed and download the `GoogleService-Info.plist` file.
-
-6. **Set Up Firebase Realtime Database:**
-   - In the Firebase Console, create a Realtime Database.
-   - Set up security rules as per your requirements.
-   - Update the Firebase configuration in your Flutter app code.
-
-7. Run the app: `flutter run`
 
 ## Dependencies
 
@@ -74,14 +52,3 @@ This app utilizes the following dependencies:
 
 - **connectivity: ^3.0.6**: Monitors network connectivity, allowing you to adapt your app's behavior based on the user's internet status.
 
-## Contributions
-
-Contributions are welcome! If you find a bug or want to add new features, feel free to open an issue or submit a pull request. Please follow our [contribution guidelines](/CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](/LICENSE).
-
----
-
-### Designed and developed with ❤️ by [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar/).
